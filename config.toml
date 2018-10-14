@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Superjomn's Blog"
+theme = "ananke"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
