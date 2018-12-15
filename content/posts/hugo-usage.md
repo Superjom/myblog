@@ -2,13 +2,16 @@
 title: "Hugo 博客使用日志"
 date: 2018-10-14T22:20:19+08:00
 draft: true
+tags: [hugo, blog]
+categories: [blog, tools]
+
 ---
 
 记录 Hugo 博客使用的一些经验
 
 # Quick-start
 
-```sh
+```bash
 # Create a new blog
 hugo new site <blog-directory-name>
 

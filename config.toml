@@ -1,8 +1,43 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Superjomn's Blog"
-theme = "ananke"
+theme = "whiteplain"
+pygmentsUseClassic=true
 
 [taxonomies]
    tag = "tags"
    category = "categories"
+
+[params.author]
+  name = "Superjomn"
+  github = "Superjomn"
+
+# Header Menu
+[[menu.main]]
+  name = "Categories"
+  identifier = "categories"
+  url = "/categories/"
+  weight = 1
+[[menu.main]]
+  name = "Tags"
+  identifier = "tags"
+  url = "/tags/"
+  weight = 2
+[[menu.main]]
+  name = "Archives"
+  identifier = "archives"
+  url = "/archives/"
+  weight = 3
+[[menu.main]]
+  name = "About"
+  identifier = "about"
+  url = "/about/"
+  weight = 4
+
+# Footer Menu
+[[menu.footer]]
+  name = "About"
+  weight = 1
+  identifier = "about"
+  url = "/about/"
+
